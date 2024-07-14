@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ENV 316 Project - Report and Presentation Hub</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="background"></div>
+    <div class="container">
+        <div class="tabs-container">
+            <div class="tabs">
+                <div class="tab active" data-tab="1">Home</div>
+                <div class="tab" data-tab="2">Reports</div>
+                <div class="tab" data-tab="3">Presentations</div>
+            </div>
+        </div>
+        <div class="content">
+            <div id="content-1" class="card active">
+                <div class="card-content">
+                    <h1>Welcome to the ENV 316 Project Hub</h1>
+                    <p>This platform hosts all relevant reports and presentations for our Environmental Management course.</p>
+                    <p>Use the tabs above to navigate to the Reports or Presentations sections to access the files.</p>
+                </div>
+            </div>
+            <div id="content-2" class="card">
+                <div class="card-content">
+                    <h1>Reports</h1>
+                    <p>Below is a collection of report(s) available for download:</p>
+                    <ul class="file-list" id="report-list"></ul>
+                </div>
+            </div>
+            <div id="content-3" class="card">
+                <div class="card-content">
+                    <h1>Presentations</h1>
+                    <p>Explore the presentation(s) related to our project:</p>
+                    <p>Currently Empty</p>
+                    <ul class="file-list" id="presentation-list"></ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
